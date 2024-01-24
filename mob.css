@@ -1,0 +1,184 @@
+
+@media screen and (min-width:375px) {
+    html{
+        scroll-behavior: smooth;
+    }
+    .rass{
+        float: left;
+        display: flex;
+    }
+    
+    .soraa {
+        height: 45px;
+        margin-top: 0px;
+
+    }
+    
+    .titles{
+        font-size: small;
+    }
+    
+    header nav a{
+        margin: 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        float: right;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    
+    nav a:hover{
+        color: blueviolet;
+        font-size: larger;
+        transform: translateY(-10px) translateX(5px);
+    }
+    
+    .kber{
+        margin-top: 80px;
+        position: absolute;
+        left: 0px;
+        height: fit-content;
+        right: 0px;
+        background-color: bisque;
+    }
+
+    .slog{
+        top: 0px;
+        position: relative; 
+        width: 100%; 
+        height: 200px; /* This will make the video cover the entire viewport height */ 
+        overflow: hidden;
+    }
+    .slog video{
+        object-fit: cover; width: 100%; height: 100%;
+    }
+
+    .first{
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .text{
+        margin-top: 0px;
+        max-width: 600px;
+        font-size: 11px;
+        margin-left: 5px;
+    }
+    
+    .firstimage{
+        height: 130px;
+        margin: 5px;
+        margin-top: 80px;
+        border-radius: 40px;
+    }
+    
+    .first1{
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+
+    .aat{
+        margin-left: 150px;
+        margin-right: 150px;
+        background-color: black;
+        color: black;
+    }
+    
+    .end{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    
+    
+    .gwa{
+        margin-top: 60px;
+        display: flex;
+        height: 50px;
+        background-color: rgb(0, 47, 136);
+        width: fit-content;
+        border-radius: 50px;
+    }
+    
+    
+    .eend{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    
+    .item{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        transition-duration: 1s;
+        transition-property: all;
+    }
+    
+    .item:hover{
+        fill: cadetblue;
+        
+        transform: translateY(-5px) rotate(360deg);
+    }
+
+    .stuff{
+        height: 150px;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img1{
+        border-radius: 40px;
+        margin: 50px;
+        width: 280px;
+        height: fit-content;
+        background-image: url('image/photo_2023-07-30_01-07-12.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    .cont{
+        padding-left: 15px;
+        padding-bottom: 15px;
+        padding-top: 180px;
+        max-width: 300px;
+        font-size: 20px;
+        text-align: start;
+        color: black;
+    }
+    .stufs{
+        justify-content: start;
+        display: flex;
+        align-items: start;
+        justify-items: start;
+    }
+    .stufb{
+        margin-top: 0px;
+        display: flex;
+        height: 50px;
+        background-color: transparent;
+        width: fit-content;
+        border-radius: 50px;
+    }
+
+    .but{
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: rgb(33, 47, 104);
+        color: white;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .but p{
+        margin-top: 30px;
+        padding-top: 10px;
+    }
+}
